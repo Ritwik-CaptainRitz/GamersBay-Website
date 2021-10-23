@@ -598,6 +598,7 @@ nav ul li a{
 }
 .link a:hover{
     color: chocolate;
+    font-size: 18px;
 }
 .mousetitle{
     color: white;
@@ -677,6 +678,7 @@ nav ul li a{
     margin-top: 20px;
     width: 500px;
     transition: 1s;
+    text-align: center;
 }
 .im img:hover{
     width: 550px;
@@ -908,9 +910,10 @@ nav ul li a{
     }
     .im img{
         margin-top: 10px;
+        transform: scale(.8);
     }
     .carousel-cell{
-        transform: scale(.7);
+        transform: scale(.65);
     }
     .col{
         width: 50%;
@@ -918,7 +921,34 @@ nav ul li a{
 }
 @media(max-width: 410px)
 {
+    label.logo{
+        font-size: 20px;
+    }
+    label.logo:hover{
+        font-size: 25px;
+    }
+    .mousetitle{
+        transform: scale(.7);
+    }
+    .keytitle{
+        transform: scale(.7);
+    }
+
     .col{
         width: 100%;
     }
+    .carousel-cell{
+        width: 100%;
+    }
+    .im img{
+        transform: scale(.5);
+        margin-left: -115px;
+    }
+}
+@media(max-width:320px)
+{
+    label.logo{
+        display: none;
+    }
+
 }
