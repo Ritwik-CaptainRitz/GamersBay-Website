@@ -152,7 +152,7 @@ nav ul li a{
     padding-left: 5px;
     font-size: 40px;
     color: white;
-    margin-left: 20px;
+    margin-left: 25px;
 }
 .gapplc{
     border: 2px solid white;
@@ -177,8 +177,8 @@ nav ul li a{
     text-align: center;
     border-radius: 15px;
     display: inline-block;
-    margin-left: 15px;
     margin-right: 10px;
+    margin-left: 10px;
     transition: .6s;
 }
 .discotxt{
@@ -213,8 +213,8 @@ nav ul li a{
     align-content: center;
     text-align: center;
     border-radius: 15px;
-    margin-left: 15px;
     margin-right: 10px;
+    margin-left: 10px;
     margin-top: 30px;
     display: inline-block;
     transition: .6s;
@@ -567,6 +567,9 @@ nav ul li a{
     margin-right: 15px;
     text-align: center;
 }
+.main-carousel{
+    text-align: center;
+}
 .boxm{
     height:700px;
     width: 300px;
@@ -831,67 +834,87 @@ nav ul li a{
         font-size: 30px;
     }
     .discord{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .discord:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .epic{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .epic:hover{
-        transform: scale(.95);
-    }
-    .steam{
         transform: scale(.8);
     }
+    .steam{
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
     .steam:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .aapptxt{
         font-size: 30px;
     }
     .logi{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .logi:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .razr{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .razr:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .wwf{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .wwf:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .gigaur{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .gigaur:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .gsk{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .gsk:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .asr{
-        transform: scale(.8);
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
     }
     .asr:hover{
-        transform: scale(.95);
-    }
-    .asus{
         transform: scale(.8);
     }
+    .asus{
+        transform: scale(.7);
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
     .asus:hover{
-        transform: scale(.95);
+        transform: scale(.8);
     }
     .mousetitle{
         transform: scale(.8);
@@ -919,7 +942,7 @@ nav ul li a{
         width: 50%;
     }
 }
-@media(max-width: 410px)
+@media(max-width: 450px)
 {
     label.logo{
         font-size: 20px;
@@ -927,13 +950,96 @@ nav ul li a{
     label.logo:hover{
         font-size: 25px;
     }
+    .discord{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .discord:hover{
+        transform: scale(.7);
+    }
+    .epic{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .epic:hover{
+        transform: scale(.7);
+    }
+    .steam{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .steam:hover{
+        transform: scale(.7);
+    }
+    .aapptxt{
+        font-size: 30px;
+    }
+    .logi{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .logi:hover{
+        transform: scale(.7);
+    }
+    .razr{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .razr:hover{
+        transform: scale(.7);
+    }
+    .wwf{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .wwf:hover{
+        transform: scale(.7);
+    }
+    .gigaur{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .gigaur:hover{
+        transform: scale(.7);
+    }
+    .gsk{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .gsk:hover{
+        transform: scale(.7);
+    }
+    .asr{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .asr:hover{
+        transform: scale(.7);
+    }
+    .asus{
+        transform: scale(.6);
+        margin-top: -20px;
+        margin-bottom: -50px;
+    }
+    .asus:hover{
+        transform: scale(.7);
+    }
+
     .mousetitle{
         transform: scale(.7);
     }
     .keytitle{
         transform: scale(.7);
     }
-
     .col{
         width: 100%;
     }
@@ -953,5 +1059,4 @@ nav ul li a{
     label.logo{
         display: none;
     }
-
 }
