@@ -776,63 +776,8 @@ nav ul li a{
 
 
 /* ################ RESPONSIVE ###################### */
-@media(max-width:858px)
+@media(max-width:1080px)
 {
-    .icon{
-        display: block;
-        color: white;
-    }
-    nav ul{
-        width: 100px;
-        height: 95px;
-        margin-top: 60px; 
-        text-align: right;
-        float: right;
-        margin-right:-300px;
-        background: black;
-        transition: .8s;
-        z-index: 200;
-    }
-    nav ul li:hover{
-        border: 0px solid white;
-        background: #ffffff00;
-        font-size: 18px;
-        border-radius: 0px;
-        padding-bottom: 20px;
-        padding-top: 10px;
-        cursor: pointer;
-        transition: .3s;
-        }
-    nav ul li{
-        display: block;
-        padding-bottom: 20px;
-        padding-top: 10px;
-    }
-    nav ul li a{
-    }
-    #btn:checked ~ ul{
-        margin-right : -45px;
-        font-size: 30px;
-        z-index: 200;
-    }
-    label.logo{
-        font-size: 25px;
-    }
-    label.logo:hover{
-        font-size: 30px;
-    }
-    .contents{
-        z-index: -1;
-    }
-    .header{
-        font-size: 45px;
-    }
-    .headerpart{
-        font-size: 15px;
-    }
-    .gapptxt{
-        font-size: 30px;
-    }
     .discord{
         transform: scale(.7);
         margin-top: -10px;
@@ -916,6 +861,63 @@ nav ul li a{
     .asus:hover{
         transform: scale(.8);
     }
+}
+@media(max-width:858px)
+{
+    .icon{
+        display: block;
+        color: white;
+    }
+    nav ul{
+        width: 100px;
+        height: 95px;
+        margin-top: 60px; 
+        text-align: right;
+        float: right;
+        margin-right:-300px;
+        background: black;
+        transition: .8s;
+        z-index: 200;
+    }
+    nav ul li:hover{
+        border: 0px solid white;
+        background: #ffffff00;
+        font-size: 18px;
+        border-radius: 0px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+        cursor: pointer;
+        transition: .3s;
+        }
+    nav ul li{
+        display: block;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    #btn:checked ~ ul{
+        margin-right : -45px;
+        font-size: 30px;
+        z-index: 200;
+    }
+    label.logo{
+        font-size: 25px;
+    }
+    label.logo:hover{
+        font-size: 30px;
+    }
+    .contents{
+        z-index: -1;
+    }
+    .header{
+        font-size: 45px;
+    }
+    .headerpart{
+        font-size: 15px;
+    }
+    .gapptxt{
+        font-size: 30px;
+    }
+   
     .mousetitle{
         transform: scale(.8);
         padding-bottom: 5px ;
