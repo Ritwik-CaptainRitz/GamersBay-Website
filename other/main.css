@@ -941,7 +941,10 @@ nav ul li a{
         width: 100%;
     }
     .im img{
-        transform: scale(.5);
+        transform: scale(.65);
+        margin-left: -90px;
+    }
+    .im img:hover{
         margin-left: -115px;
     }
 }
